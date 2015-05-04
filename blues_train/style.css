@@ -1,0 +1,180 @@
+/* BCOOL CSS  9.Jun.2005 ver.1.0.3*/
+
+
+body {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif, "£Í£Ó £Ð¥´¥·¥Ã¥¯", Osaka, "¥Ò¥é¥®¥Î³Ñ¥´ Pro W3";
+	color: #666666;
+	margin: 0px;
+	padding: 0px;
+}
+table {margin: 0;padding: 0;width: 100%;}
+table td {padding: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a {color: #FF3300;text-decoration: none;}
+a:hover {color: #990000;text-decoration: underline;}
+a:visited {color: #FF3300;}
+
+h1 {
+	color: #6075AA;
+	padding: 0px;
+	margin: 0px;
+}
+.site_sub_title{
+	padding: 0px 30px;
+}
+h2 {color: #6075AA;text-indent: 10px;border-bottom-width: medium;border-bottom-style: ridge;border-bottom-color: #C0C0C0;}
+h3 {text-indent: 10px;color: #6075AA;border-bottom-width: 1px;border-bottom-style: dotted;border-bottom-color: #C0C0C0;}
+h4,h5 {color: #6075AA;border-bottom-width: 1px;border-bottom-style: dotted;border-bottom-color: #C0C0C0;}
+
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #333366}
+
+input.formButton {}
+
+.item {}
+.itemHead {padding: 3px;color: #666666;border-bottom-width: 1px;border-bottom-style: dotted;border-bottom-color: #666666;}
+.itemInfo {text-align: right; padding: 3px}
+.itemTitle a {font-size: 120%; font-weight: bold; font-variant: small-caps; }
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #efefef}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+th {padding : 2px;vertical-align : middle;line-height: 150%;font-weight: bold;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #666666;color: #333333;background-color: #FFFFFF;}
+
+td#header_01 {background-image: url(images/header_01.jpg);height: 20px;width: 750px;}
+td#header_02 {background-image: url(images/header_02.jpg);height: 13px;width: 750px;}
+td#header_03 {background-image: url(images/header_03.jpg);height: 66px;width: 750px;}
+td#header_04 {background-image: url(images/header_04.jpg);height: 170px;width: 750px;}
+td#header_05 {background-image: url(images/header_05.gif);height: 18px;width: 750px;}
+td#discription{}
+.middle {width: 750px;}
+td#footer {font:10px/150% Verdana, Arial, Helvetica, sans-serif, "£Í£Ó £Ð¥´¥·¥Ã¥¯", Osaka, "¥Ò¥é¥®¥Î³Ñ¥´ Pro W3";}
+
+/* Left */
+td#leftcolumn {width: 210px;font-size:12px;color: #286367;}
+td#leftcolumn th {}
+td#leftcolumn div.blockTitle {padding: 10px;font-weight: bold;text-align: center;}
+td#leftcolumn div.blockContent {padding: 0px;line-height: 120%; }
+/* Cnter */
+td#centercolumn {
+	font-size: 12px;
+	text-align:left;
+	line-height: 120%;
+}
+
+td#centercolumn th {vertical-align: middle;	background-color: #ECECEC;}
+
+/* Cnter - Cnter */
+td#centerCcolumn {padding: 0px 5px 1px;}
+td#centerCcolumn div.blockTitle {padding: 3px;color: #6075AA; font-size: 14px; font-weight: bold; }
+td#centerCcolumn div.blockContent {padding: 3px; margin-right: 0px;  margin-left: 0px; margin-bottom: 2px; line-height: 150%;}
+
+/* Center - Left */
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerLcolumn div.blockTitle {padding: 3px; color: #6075AA; font-weight: bold; margin-top: 0px;}
+td#centerLcolumn div.blockContent {padding: 3px; line-height: 120%;}
+
+/* Cnter - Right */
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerRcolumn div.blockTitle {padding: 3px; color: #6075AA; font-weight: bold; margin-top: 0px;}
+td#centerRcolumn div.blockContent {padding: 3px; line-height: 120%;}
+
+div#content {text-align: left; padding: 8px;}
+
+/* Right */
+td#rightcolumn {width: 230px; font-size:12px;}
+td#rightcolumn th {}
+td#rightcolumn div.blockTitle {padding: 0px;font-weight: bold;text-align: center;}
+td#rightcolumn div.blockContent {padding: 15px; line-height: 120%;}
+
+
+/* Main Menu */
+td#mainmenu a {
+	color: #657087;
+	height: 27px;
+	background-image: url(images/menu_back.jpg);
+	background-repeat: no-repeat;
+	padding-top: 18px;
+	font-weight: bold;
+}
+td#mainmenu a:hover { color:white; font-weight: bold;
+	background-image: url(images/menu_hover.jpg);	background-repeat: no-repeat;
+}
+td#mainmenu a.menuTop {padding-left: 50px;}
+td#mainmenu a.menuMain {padding-left: 50px;}
+td#mainmenu a.menuSub {
+	padding-left: 70px;
+	background-image: url(images/menu_sub.jpg);
+}
+
+/* User Menu */
+td#usermenu a {	color: #657087;padding-top: 5px;padding-left: 30px;font-weight: bold;}
+td#usermenu a:hover {color:white; font-weight: bold;}
+td#usermenu a.menuTop {padding-left: 30px;}
+td#usermenu a.highlight {}
+
+
+
+.outer {border: 0px solid #CC0000;}
+.head {
+	padding: 5px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C7C7C7;
+	background-color: #ECECEC;
+}
+.even {
+	padding: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #C7C7C7;
+}
+.odd {
+	padding: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #C7C7C7;
+	background-color: #F7F7F7;
+}
+.foot {padding: 5px; font-weight: bold;}
+tr.even td {
+	padding: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #C7C7C7;
+}
+tr.odd td {
+	padding: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #C7C7C7;
+	background-color: #F7F7F7;
+}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace, osaka; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace, osaka; padding: 0px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-style: normal; font-size: 9px}
+.comDateCaption {font-weight: bold; font-style: normal;}
+form#userinfo textarea, select {font-size: 90%;}
